@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Recipe page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+      background-color: hsl(30, 54%, 90%);
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      height: 300vh;
+    }
+
+    .component {
+      background-color: white;
+      width: 700px;
+      border-radius: 25px;
+    }
+
+    .inner {
+      padding: 35px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 9px;
+    }
+
+    p{
+      font-family: "Outfit", sans-serif;
+    }
+
+    h1,
+    h2 {
+      font-family: "Young Serif", serif;
+      font-weight: 400;
+    }
+
+    .pt-div {
+      background-color: hsl(330, 100%, 98%);
+      border-radius: 5px;
+      padding: 1px;
+    }
+
+    .pt-div h4 {
+      padding-left: 17px;
+    }
+
+    h2 {
+      color: hsl(332, 51%, 32%);
+      padding-left: 17px;
+    }
+
+    .Instructions-list {
+      margin-top: -10px;
+    }
+
+
+    table {
+      width: 100%;
+      text-align: left;
+      /* padding-left: 30px; */
+    }
+
+    th,
+    td {
+      border-bottom: 1px solid #ddd;
+      height: 40px;
+    }
+
+    th{
+      padding-left: 30px;
+    }
+
+    td {
+      color: hsl(332, 51%, 32%);
+      font-weight: 700;
+    }
+  </style>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="component">
+    <div class="inner">
+      <div class="img-div">
+        <img src="./assets/images/image-omelette.jpeg" alt="omelette image" />
+      </div>
+      <div class="header-div">
+        <h1>Simple Omelette Recipe</h1>
+        <p>
+          An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
+          to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+        </p>
+      </div>
+      <div class="pt-div">
+        <h4>Preparation time</h4>
+        <ul>
+          <li><p>Total:approximately 10 minutes</p></li>
+          <li><p>Preparation time:5 minutes</p></li>
+          <li><p>Cooking:5 minutes</p></li>
+        </ul>
+      </div>
+      <div class="Ingredients-div">
+        <h2>Ingredients</h2>
+        <ul class="">
+          <li><p>2-3 large eggs</p></li>
+          <li><p>salt, to taste</p></li>
+          <li><p>pepper, to taste</p></li>
+          <li><p>1 tablespoon of butter or oil</p></li>
+          <li><p>optional fillings:cheese, diced vegetables, cooked meats, herbs</p></li>
+        </ul>
+      </div>
+      <hr class="">
+      <div class="Instructions-div">
+        <h2>Instructions</h2>
+        <ol class="Instructions-list">
+          <li><p><b>Beat the eggs:</b> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
+            You can add a tablespoon of water or milk for a fluffier texture.</p>
+          </li>
+          <li>
+            <p><b>Heat the pan:</b> Place a non-stick frying pan over medium heat and add butter or oil.</p>
+          </li>
+          <li>
+            <p><b>Cook the omelette:</b> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure
+            the eggs evenly coat the surface.</p>
+          </li>
+          <li>
+            <p><b>Add fillings (optional):</b> When the eggs begin to set at the edges but are still slightly runny in the
+            middle, sprinkle your chosen fillings over one half of the omelette.</p>
+          </li>
+          <li>
+            <p><b>Fold and serve:</b> As the omelette continues to cook, carefully lift one edge and fold it over the
+            fillings. Let it cook for another minute, then slide it onto a plate.</p>
+          </li>
+          <li>
+            <p><b>Enjoy:</b> Serve hot, with additional salt and pepper if needed.</p>
+          </li>
+        </ol>
+      </p>
+      </div>
+      <hr>
+      <div class="Nutrition-div">
+        <h2>Nutrition</h2>
+        <p>The table below shows nutritional values per
+          serving without the additional fillings.</p>
+        <table>
+          <tr>
+            <th><p>Calories</p></th>
+            <td>277kcal</td>
+          </tr>
+          <tr>
+            <th><p>Carbs</p></th>
+            <td>0g</td>
+          </tr>
+          <tr>
+            <th><p>Proteins</p></th>
+            <td>20g</td>
+          </tr>
+          <tr>
+            <th><p>Fats</p></th>
+            <td>22g</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+<!--    Nutrition
+
+  
+
+  Calories
+  277kcal
+
+  Carbs
+  0g
+
+  Protein
+  20g
+
+  Fat
+  22g
+   -->
+<!-- <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer> -->
+<!-- <body>
+    <header>
+      <h1>Simple Omelette Recipe</h1>
+    </header>
+  
+    <section>
+      <h2>Preparation time</h2>
+      <ul>
+        <li>Approximately 10 minutes</li>
+      </ul>
+    </section>
+  
+    <section>
+      <h2>Ingredients</h2>
+      <ul>
+        <li>2-5 large eggs</li>
+        <li>Salt</li>
+        <li>Pepper</li>
+        <li>Onions</li>
+        <li>Cooked meat</li>
+      </ul>
+    </section>
+  
+    <section>
+      <h2>Instructions</h2>
+      <ol>
+        <li>Crack the eggs into a bowl and whisk them.</li>
+        <li>Add salt, pepper, onions, and cooked meat to the bowl.</li>
+        <li>Heat a non-stick pan over medium heat.</li>
+        <li>Pour the egg mixture into the pan and cook until the edges start to set.</li>
+        <li>Gently lift the edges of the omelette and tilt the pan to allow the uncooked eggs to flow underneath.</li>
+        <li>Cook until the omelette is set and slightly golden on the bottom.</li>
+        <li>Fold the omelette in half and serve.</li>
+      </ol>
+    </section>
+  
+    <footer>
+      <p>© 2022 Your Name</p>
+    </footer>
+  </body> -->
+<!-- /* .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  body {
+    background-color: #f9e8e8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  ul,
+  ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  footer {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+  }  */
+
+
+
+   -->
